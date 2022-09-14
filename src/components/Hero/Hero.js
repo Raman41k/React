@@ -1,5 +1,7 @@
 import React from 'react';
+
 import cl from "./Hero.css"
+
 const Hero = (props) => {
 
     let{id,name,status,species,gender,image} = props;

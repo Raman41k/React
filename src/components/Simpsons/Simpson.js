@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {simpsons} from "./Simpsons"
 import cl from "./Simpson.css"
 

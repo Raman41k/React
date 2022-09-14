@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+
 import Character from "../Character/Character"
 
 const Characters = () => {

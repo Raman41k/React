@@ -1,4 +1,5 @@
 import React from 'react';
+
 import cl from "./Character.css"
 
 const Character = (props) => {
