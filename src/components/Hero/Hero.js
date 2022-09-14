@@ -9,7 +9,7 @@ const Hero = (props) => {
             <h1>{id}.{name}</h1>
             <h2>{status}</h2>
             <p>{species} - {gender}</p>
-            <img src={image}/>
+            <img src={image} alt={name}/>
         </div>
     );
 };

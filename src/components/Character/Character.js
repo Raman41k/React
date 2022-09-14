@@ -10,7 +10,7 @@ const Character = (props) => {
             <h1>{character.id}.{character.name}</h1>
             <h2>{character.status}</h2>
             <p>{character.species} - {character.gender}</p>
-            <img src={character.image}/>
+            <img src={character.image} alt={character.name}/>
         </div>
     );
 };
