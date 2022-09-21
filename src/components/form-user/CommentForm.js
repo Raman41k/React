@@ -4,7 +4,7 @@ import {joiResolver} from "@hookform/resolvers/joi";
 
 import cl from "./UseForm.module.css"
 import {commentValidator} from "../../validators/user.validator";
-import {setComment} from "../services/json.placeholder";
+import {setComment} from "../../services/json.placeholder";
 
 const CommentForm = () => {
 

@@ -4,7 +4,7 @@ import {joiResolver} from "@hookform/resolvers/joi"
 
 import "./UseForm.module.css"
 import {userValidator} from "../../validators/user.validator";
-import {setUser} from "../services/json.placeholder";
+import {setUser} from "../../services/json.placeholder";
 import axios from "axios";
 
 const UserForm = () => {

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-import {getComments} from "../../services/json.placeholder";
+import {getComments} from "../../../services/json.placeholder";
 import Comment from "../Comment/Comment";
 
 const Comments = () => {
@@ -9,7 +9,7 @@ const Comments = () => {
 
     useEffect(() => {
         getComments().then(value => setComments(value.data))
-    })
+    }, [])
 
     return (
         <div>

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-import {getUsers} from "../../services/json.placeholder";
+import {getUsers} from "../../../services/json.placeholder";
 import User from "../User/User";
 
 const Users = () => {
@@ -9,7 +9,7 @@ const Users = () => {
 
     useEffect(()=>{
         getUsers().then(value => setUsers(value.data))
-    })
+    }, [])
 
     return (
         <div>
