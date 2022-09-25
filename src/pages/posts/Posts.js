@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useLocation} from "react-router-dom";
+
 import {getPostComments} from "../../services";
 
 const Posts = () => {
@@ -12,7 +13,7 @@ const Posts = () => {
 
     useEffect(() => {
         getPostComments(postId).then(value => setPostComments(value.data))
-    },[])
+    },[postId])
 
     return (
         <div>
@@ -24,4 +25,4 @@ const Posts = () => {
     );
 };
 
-export default Posts;
+export {Posts};

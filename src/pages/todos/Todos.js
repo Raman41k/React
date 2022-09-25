@@ -19,4 +19,4 @@ const Todos = () => {
     );
 };
 
-export default Todos;
+export {Todos};
