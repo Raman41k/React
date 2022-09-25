@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {getToDos} from "../../services/Json.placeholder";
+import {getToDos} from "../../services";
 
 const Todos = () => {
 

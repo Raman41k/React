@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useLocation} from "react-router-dom";
-import {getPostComments} from "../../services/Json.placeholder";
+import {getPostComments} from "../../services";
 
 const Posts = () => {
 

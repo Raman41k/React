@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-import {getAlbums} from "../../services/Json.placeholder";
+import {getAlbums} from "../../services";
 
 const Albums = () => {
 

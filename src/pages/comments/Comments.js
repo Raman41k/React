@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {getComments} from "../../services/Json.placeholder";
+import {getComments} from "../../services";
 import {Link} from "react-router-dom";
 
 const Comments = () => {

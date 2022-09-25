@@ -1,12 +1,12 @@
 import {Route,Routes} from "react-router-dom";
 
 import Navigation from "./components/Navigation/Navigation";
-import Todos from "./pages/todos/Todos";
-
-import Comments from "./pages/comments/Comments";
 import Home from "./pages/home/Home";
+import Todos from "./pages/todos/Todos";
 import Albums from "./pages/albums/Albums";
+import Comments from "./pages/comments/Comments";
 import Posts from "./pages/posts/Posts";
+
 
 function App() {
   return (
