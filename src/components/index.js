@@ -1,2 +1,2 @@
-export * from './Cat/Cat'
-export * from './Dog/Dog'
+export * from './First/First'
+export * from './Second/Second'
