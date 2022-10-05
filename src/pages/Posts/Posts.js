@@ -1,6 +1,7 @@
 import React from 'react';
-import {ADD_COMMENTS} from "../../index";
+
 import {useDispatch, useSelector} from "react-redux";
+import {ADD_COMMENTS} from "../../reducers";
 
 const Posts = () => {
 

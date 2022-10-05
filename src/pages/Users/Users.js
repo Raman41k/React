@@ -1,6 +1,8 @@
 import React from 'react';
+
 import {useDispatch, useSelector} from "react-redux";
-import {ADD_USERS} from "../../index";
+import {ADD_USERS} from "../../reducers";
+
 
 const Users = () => {
 

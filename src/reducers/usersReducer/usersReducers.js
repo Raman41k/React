@@ -1,0 +1,11 @@
+import {ADD_USERS} from "../actions/actions";
+
+export const usersReducer = (state = {users: []}, action) => {
+    switch (action.type) {
+        case ADD_USERS:
+            return {...state, users: action.payload}
+        default:
+            return state;
+    }
+}
+
