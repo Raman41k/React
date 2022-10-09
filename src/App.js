@@ -1,10 +1,16 @@
+import {HeaderPosts, HeaderUsers, Posts, Users} from "./components";
 
 function App() {
-  return (
-      <div>
 
-      </div>
-  );
+
+    return (
+        <div>
+            <HeaderUsers/>
+            <Users/>
+            <HeaderPosts/>
+            <Posts/>
+        </div>
+    );
 }
 
 export default App;
