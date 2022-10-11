@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Provider} from "react-redux";
-
 import {setUpStore} from "./redux";
+
+import App from './App';
 
 const store = setUpStore();
 
